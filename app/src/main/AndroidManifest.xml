@@ -19,9 +19,22 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".InvoerScherm"
+            android:label="@string/title_activity_invoer_scherm"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".Persoonsscherm"
             android:label="@string/title_activity_persoonsscherm"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".DetailsScherm"
+            android:label="@string/title_activity_details_scherm"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.edo.studiebarometer.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

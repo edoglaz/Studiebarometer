@@ -1,4 +1,4 @@
-package com.example.edo.studiebarometer.
+package com.example.edo.studiebarometer;
 
 import android.content.ContentValues;
 import android.content.Intent;
@@ -19,7 +19,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
+import com.example.edo.studiebarometer.DetailsScherm;
+import com.example.edo.studiebarometer.InvoerScherm;
 import com.example.edo.studiebarometer.Models.Course;
+import com.example.edo.studiebarometer.Persoonsscherm;
 import com.example.edo.studiebarometer.R;
 import com.example.edo.studiebarometer.database.DatabaseHelper;
 import com.example.edo.studiebarometer.database.Databaseinfo;
